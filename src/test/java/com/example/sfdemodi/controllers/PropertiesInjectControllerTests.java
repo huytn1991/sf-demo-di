@@ -24,7 +24,7 @@ public class PropertiesInjectControllerTests {
     public void getGreetingFromHello() throws Exception {
         mockMvc.perform(get("/properties/hello"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello. Nice to meet you"));
+                .andExpect(content().string("Halo, senang bertemu dengan Anda"));
     }
 
 }

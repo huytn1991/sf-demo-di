@@ -24,7 +24,7 @@ public class SetterInjectControllerTest {
     public void getGreetingFromHello() throws Exception {
         mockMvc.perform(get("/setter/hello"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello. Nice to meet you"));
+                .andExpect(content().string("Xin chào. Rất vui được gặp bạn."));
     }
 
 }
